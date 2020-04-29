@@ -109,7 +109,7 @@ def playGame():
             alpha_hint(comp)
 
         # shows if number even/odd OR divisible factors
-        elif str(user) == 0:
+        elif user == 0:
             hint(comp, r.randrange(1, 3), div)
 
         # if user is higher
